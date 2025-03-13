@@ -64,7 +64,7 @@ Este ejercicio está diseñado para evaluar tus habilidades en el uso de Git y G
       showResult(operation, result)
   }
   ```
-- Realizar un commit con el mensaje `"Funcionalidad división con error"`.
+- Realizar un commit con el mensaje `"Funcionalidad dividir con error"`.
 
 ### **4. Merge de la Rama `feature/division`**
 - Fusionar la rama `feature/division` en la rama principal (`main`), es decir, ve a la rama `main` y realiza un merge de la rama `feature/division`.
@@ -96,7 +96,7 @@ Este ejercicio está diseñado para evaluar tus habilidades en el uso de Git y G
          showResult(operation, result)
      }
   ```  
-- Realizar un commit con el mensaje `"Funcionalidad división sin error"`.
+- Realizar un commit con el mensaje `"Funcionalidad dividir sin error"`.
 
 ### **7. Merge Final de la Rama `feature/division`**
 - Fusionar la rama `feature/division` en la rama principal (`main`).
@@ -122,7 +122,7 @@ Este ejercicio está diseñado para evaluar tus habilidades en el uso de Git y G
   }
   ```
 
-- Realizar un commit en la rama `feature/suma` con el mensaje `"Funcionalidad suma"`.
+- Realizar un commit en la rama `feature/suma` con el mensaje `"Funcionalidad sumar"`.
 
 - Añadir la funcionalidad de resta en la rama `feature/resta`:
   ```kotlin
@@ -130,7 +130,7 @@ Este ejercicio está diseñado para evaluar tus habilidades en el uso de Git y G
       return num1 - num2
   }
   ```
-- Modificar la función `main` en la rama `feature/resta`:
+- Modificar la función `main` en la rama `feature/restar`:
   ```kotlin
   fun main(args: Array) {
       val (operation, num1, num2) = parseArguments(args)
